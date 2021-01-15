@@ -1,0 +1,35 @@
+header {
+    color:rgb(86, 23, 92);
+    font-family: 'Courier New', Courier, monospace; font-size: 40px;
+    background-color:rgb(204, 172, 196);
+    text-align: center;
+}
+p {
+    color: black;
+    font-family: 'Arial', sans-serif; font-size: 17px;
+}
+li {
+    color: black;
+    font-family: 'Arial', sans-serif; font-size: 18px;
+}
+:any-link:hover {
+    background-color: yellow;
+    color:red
+}
+.notebox {
+    border: 4px solid rgb(85, 29, 90);
+    background-color: rgb(224, 196, 217);
+    text-align: center;
+}
+.zoom {
+    transition: transform .3s; 
+    transform-origin: left top;
+}
+  
+.zoom:hover {
+    transform: scale(1.1); 
+}
+.figcaption {
+    color:blue;
+    font-size: large;
+}
