@@ -2,21 +2,43 @@
 <html lang = 'en'>
 <html>
     <head>
+      <link href="css/style.css" rel="stylesheet" type="text/css">
       <meta charset = "utf-8">
       <meta name="author" content="Suvi Kansakoski">
       <meta name = "description" content= "a simple article about cats">   
       <title>Exercise 1 Web Page</title>
+      <style>
+        body {
+          background-image: url("../images/bg.jpg");
+          background-color: #cccccc;
+          background-repeat: no-repeat;
+          background-position: right;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+        h2 {
+          color:rgb(85, 29, 90);
+          font-family: 'Courier New', Courier, monospace; font-size: 23.5px;
+        }
+
+      </style>
     </head>
 
     <body>
+      <div class="zoom">
+        <img src="https://thumbs.dreamstime.com/b/cute-cat-face-outline-icon-vector-illustration-148856151.jpg" style="float:left" width="170" height="140" />
+      </div>
+      <header><br>Kitty Cat Website<br><br>
+      </header>
+      <br>
+      <br> 
       <ul>
-      <li><a href='index.html'> Home</a>
-      <li><a href='aboutus.html'> About us</a>
-      <li><a href='projects.html'> Projects</a>
-      </li>
+      <div class="notebox">
+        <div style= "color:rgb(85, 29, 90);  font-family: 'Arial', sans-serif; font-size: 25px;"><li class="biggertext"></li><a href='index.html'>Home| </a><a href='aboutus.html'>About us</a><a href='projects.html'> |Projects</a>
+      </div>
       </ul>
-
-      <h1>Kitty Cat Website - Exercise 1</h1>
+      <!--<h1 style="color:rgb(85, 29, 90); font-family: 'Courier New', Courier, monospace; font-size: 40px; background-color: rgb(255, 200, 242);" >Kitty Cat Website - Exercise 1</h1>-->
+      <h1 style="color:red; font-family: 'Courier New', Courier, monospace; font-size: 16px; background-color: rgb(228, 185, 218);" >Exercise 1</h1>
       <h2>What's the scientific name of a cat?</h2>
       <p><b>The cat </b>(<i>Felis catus</i>) is a domestic species of small <u>carnivorous</u> mammal.</p>
    
@@ -27,7 +49,7 @@
       </ul>
 
       <img src = "https://media.istockphoto.com/photos/black-cat-on-blue-background-friday-the-13th-picture-id1212443044?k=6&m=1212443044&s=612x612&w=0&h=jWb-dgtxhgBcP61eQ1T5YmP0GQ7zX6ljD0WTx-J1nS0=" alt= "cat" width = "600" height = "400">
-      <h3>Here's how to take care of a cat!</h3>
+      <h2>Here's how to take care of a cat!</h2>
 
       <ul>
       <li>Play with them
@@ -38,13 +60,32 @@
 
       <img src = "https://media.istockphoto.com/photos/cat-with-blue-eyes-looks-at-camera-picture-id1067347086?k=6&m=1067347086&s=612x612&w=0&h=aHrE1UPUHnRFESfIXNCT5uZg14Yus0LaYkK6YkLANOU=" alt = "cat" width = "600" height = "300">
       
-      <h3>Exercise 2</h3>
+      <h1>Exercise 2</h1>
       <article>
-        <h4>A very cool heading</h4>
-        <p>This is a paragraph</p>
+        <h2>Info about this exercise:</h2>
+        <p>For this exercise, I also made the "Home", "Projects", and "About us" links to the website.</p>
 
       </article>
-      <img src="https://www.hamk.fi/wp-content/uploads/2018/07/HAMK_mobiili.jpg" style="float:right" width="190" height="84" />
+      <img src="https://www.hamk.fi/wp-content/uploads/2018/07/HAMK_mobiili.jpg" style="float:right" width="190" height="84">
       <address>Hämeen ammattikorkeakoulu HAMK <br>PL 230 13101 Hämeenlinna</address>
+
+      <h1>Exercise 3</h1>
+      <article>
+        <h2>Info about this exercise:</h2>
+        <p>For this exercise I added a background to the website, hover effect on logo and links, CSS, </p>
+        <p>a video, and a picture with a modified caption under it.</p>
+        <ul>
+        <li>to produce the capital letter "Ä", you press Alt down, type 0196 and then release Alt.
+        <li>HTML5 is the updated version of HTML, currently being used worldwide. It has support for video and audio features while HTML doesn't, for example.
+        </li>
+        </ul>
+      </article>
+
+      <img src="https://www.litter-robot.com/blog/wp-content/uploads/2018/07/american-shorthair-494x510.jpg" alt="cat" width = "500" height= "400">
+      <div class="figcaption"><figcaption>This cat doesn't look very happy.</figcaption></div>
+
+      <video src="images/catvideo.mp4" controls width="500" height="300" autoplay loop muted>
+        <p>Your browser doesn't support HTML5 video. Here is a <a href="images/catvideo.mp4">link to the video</a></p>
+      </video>
     </body>
 </html>
