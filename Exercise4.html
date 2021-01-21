@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+<html>
+     <head>
+     <link href="Css/Design.css" rel="Stylesheet" type="Text/Css">
+     <meta charset = "utf-8">
+     <meta name="author" content="Suvi Kansakoski">
+     <meta name = "description" content= "a simple website about dogs">   
+     <title>Exercise 4 Web Page</title>
+     <style>
+        .wrapper {
+           margin:auto;
+           width:75%;
+        }
+        body {
+          background: URL("../Images/Zg.jpg");
+          background-color: #cccccc;
+          background-repeat: no-repeat;
+          background-position: right;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+        content {
+          background: URL("../Images/Dg.png");
+          background-color: #cccccc;
+          background-repeat: no-repeat;
+          background-position: right;
+          background-attachment: fixed;
+          background-size: cover;
+        }   
+        .topmenu {
+          display: flex;
+          flex-flow: row wrap;
+          justify-content:center;
+          margin: 0;
+          background: URL("../Images/Ag.jpg");
+          background-color: #cccccc;
+          background-repeat: no-repeat;
+          background-position: right;
+          background-attachment: fixed;
+          background-size: cover;
+          height: 100px;
+        }  
+        leftbar {
+        width: 29px;
+        background: URL("../Images/Ag.jpg");
+        background-color: #cccccc;
+        background-repeat: no-repeat;
+        background-position: right;
+        background-attachment: fixed;
+        background-size: cover;
+        }
+      </style>
+      <link rel="icon" href="https://pixy.org/src/140/1408373.jpg">
+      </head>
+   <body>
+     <div class="wrapper">
+        <header>
+          <div class="zoom">
+          <img src="https://pixy.org/src/140/1408373.jpg" style="float:left" width="130" height="100" />
+          </div>  
+          <div class="topmenu">
+          <h1 style="color:rgb(0, 0, 0); font-family: 'fantasy'; font-size: 40px;" >The Good Doggo Website</h1>
+          </div>
+        </header>
+      <div class="flexgrowcontainer">
+          <leftbar style ="flex-grow: 1;">
+          <br>
+          <ul>
+          <li><a href='https://en.wikipedia.org/wiki/Dog' target="_blank">Link1</a>
+          <li><a href='https://en.wikipedia.org/wiki/Golden_Retriever' target="_blank">Link2</a>
+          <li><a href='https://en.wikipedia.org/wiki/Chihuahua_(dog)' target="_blank">Link3</a>
+          </li>
+          </ul>
+          </leftbar>
+
+         <content style = "flex-grow: 6;">
+            <h1 style="color:rgb(52, 8, 99); font-family: 'Arial', sans-serif; font-size: 30px;" >Exercise 4</h1>
+            <article>
+              <h2>Who is a good doggo?</h2>
+              <p>He is a good doggo!</p>
+      
+            </article>
+            <img src="https://media.istockphoto.com/photos/cute-dog-put-his-face-on-his-knees-to-the-man-and-smiling-from-the-picture-id1041987488?k=6&m=1041987488&s=612x612&w=0&h=yP1H16o3qOlXkQZgt7jMnIEarRnBbNCcWflvFcL6E54=" width="400" height="300">
+            <div class="figcaption"><figcaption>I love my hooman!</figcaption></div>
+            <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" width="400" height="250">
+            <div class="figcaption"><figcaption>We love to play! Woof!</figcaption></div>
+        </content>
+     </div>
+     <div class="footer"><footer><address>Hämeen ammattikorkeakoulu HAMK <br>PL 230 13101 Hämeenlinna</address>
+     <p style="color:rgb(255, 255, 255); font-family: 'Arial', sans-serif; font-size: 15px;">&copy; Suvi Känsäkoski</p>
+     </footer>
+     </div></div>
+    </body>
+</html>
+
